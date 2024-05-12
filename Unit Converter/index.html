@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+
+  <body>
+    <div class="main">
+        <div id="distance">
+            <h1>Unit Converter</h1>
+            <input type="text" id="distance-input">
+            <div id="units">
+                <p id="inputs">
+                    <label><input type="radio" name="in-buttons" id="feet"><span>feet</span></label>
+                    <label><input type="radio" name="in-buttons" id="inches"><span>inches</span></label>
+                    <label><input type="radio" name="in-buttons" id="meter"><span>meter</span></label>
+                    <label><input type="radio" name="in-buttons" id="cm"><span>cm</span></label>
+                    <label><input type="radio" name="in-buttons" id="mm"><span>mm</span></label>
+                    <label><input type="radio" name="in-buttons" id="km"><span>km</span></label>
+                    <label><input type="radio" name="in-buttons" id="mile"><span>mile</span></label>
+                  </p>
+                <!--<button class="input-btn" id="feet">feet</button>
+                <button class="input-btn" id="inches">inches</button>
+                <button class="input-btn" id="meter">meter</button>
+                <button class="input-btn" id="cm">cm</button>
+                <button class="input-btn" id="mm">mm</button>
+                <button class="input-btn" id="km">km</button>
+                <button class="input-btn" id="mile">mile</button>-->
+            </div>
+            <div id="convert">
+                <h3>Convert to</h3>
+                <p id="outputs">
+                    <label><input type="radio" name="out-buttons" id="feet-con"><span>feet</span></label>
+                    <label><input type="radio" name="out-buttons" id="inches-con"><span>inches</span></label>
+                    <label><input type="radio" name="out-buttons" id="meter-con"><span>meter</span></label>
+                    <label><input type="radio" name="out-buttons" id="cm-con"><span>cm</span></label>
+                    <label><input type="radio" name="out-buttons" id="mm-con"><span>mm</span></label>
+                    <label><input type="radio" name="out-buttons" id="km-con"><span>km</span></label>
+                    <label><input type="radio" name="out-buttons" id="mile-con"><span>mile</span></label>
+                  </p>
+                <!--<button class="output-btn" id="feet-con">feet</button>
+                <button id="inches-con">inches</button>
+                <button id="meter-con">meter</button>
+                <button id="cm-con">cm</button>
+                <button id="mm-con">mm</button>
+                <button id="km-con">km</button>
+                <button id="mile-con">mile</button>-->
+                <div>
+                    <button id="calculate">CONVERT</button>
+                </div>
+                <!--<div id="results">
+                    <ul id="result"></ul>
+                </div>-->
+                <p id="result"></p>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

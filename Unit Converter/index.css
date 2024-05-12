@@ -1,0 +1,113 @@
+body {
+    background-size: cover;
+    margin: 0, auto;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+.main {
+    max-width: 600px;
+    margin: auto;
+    background-color: lightgrey;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#result {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button { 
+    border: 2px;
+    padding: auto;
+    background-color: grey;
+    color: white;
+    font-size: 12pt;
+    font-weight: bold;
+    width: 70px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#distance-input {
+    width: 250px;
+    height: 30px;
+    font-size: 12pt;
+    padding-left: 10px;
+    border:2px orange;
+    border-radius: 5px;
+}
+
+#distance-input:focus {
+    outline: none;
+}
+
+#inputs input[type="radio"] {
+    display: none;
+  }
+  
+  #inputs span {
+    display: inline-block;
+    padding: 10px;
+    font-size: 12pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: grey;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    color: white;
+  }
+
+  #inputs span:hover {
+    background: orange;
+    transition: 0.2s;
+  }
+  
+  #inputs input[type="radio"]:checked + span {
+    transition: 0.2s;
+    background-color: orangered;
+    color: white;
+  }
+
+  #outputs input[type="radio"] {
+    display: none;
+  }
+  
+  #outputs span {
+    display: inline-block;
+    padding: 10px;
+    font-size: 12pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: grey;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    color: white;
+  }
+  #outputs span:hover {
+    background: orange;
+    transition: 0.2s;
+  }
+  
+  #outputs input[type="radio"]:checked + span {
+    transition: 0.2s;
+    background-color: orangered;
+    color: white;
+  }
+
+#calculate { 
+    width: 120px;
+    background-color: brown;
+}
+
+#calculate:hover {
+    background-color: orange;
+    transition: 0.2s;
+}
+
+#calculate:active {
+    background-color: orangered;
+}
+
